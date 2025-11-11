@@ -1,0 +1,517 @@
+{
+  "version": "1.0.0",
+  "last_scan": "2025-11-07T18:55:05.995100",
+  "modules": [
+    {
+      "module": "ai_os.core.config_manager",
+      "last_updated": "2025-11-04T21:58:39.239731",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "3c464cbd2ec1433a056adc03a3c0a35ab5c38cc60268ff0a5d24b577a77e0a80"
+    },
+    {
+      "module": "ai_os.core.core_master",
+      "last_updated": "2025-11-07T16:34:19.957674",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "4ce991ff8a9a45f81eb9e3cfaed87cb9ca6a7bb27ccc99ac68a529474264cea9"
+    },
+    {
+      "module": "ai_os.core.event_bus",
+      "last_updated": "2025-11-04T21:58:56.706324",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "b41e4cb74c5b1c9f997172e50cb639cfc28ec3789f8c05abecf3006313050192"
+    },
+    {
+      "module": "ai_os.core.system_registry",
+      "last_updated": "2025-11-04T21:58:45.656456",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "5497d5ba1a3d10fcfca9f7092da4bb2694be5c7a9461dbfa29141ae6ad7a782d"
+    },
+    {
+      "module": "ai_os.core.__init__",
+      "last_updated": "2025-11-04T21:58:28.349864",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "f8108adee2e261e4d754ef7a92d71d170fc50963fce50fc7c1bc919335b96308"
+    },
+    {
+      "module": "ai_os.filesystem.file_node",
+      "last_updated": "2025-11-04T23:02:30.651571",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "40cafa37ab2d64791a0167cdbdb6f2c85510109598480fe0787042da2bf60c8b"
+    },
+    {
+      "module": "ai_os.filesystem.mount_manager",
+      "last_updated": "2025-11-04T23:04:27.370008",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "c705d33ee6756fd59e8836ca2b834bc9a1e1dc41fa04b1602652dda1f082a08c"
+    },
+    {
+      "module": "ai_os.filesystem.storage_adapter",
+      "last_updated": "2025-11-04T23:12:01.452264",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "bc0011fb8715442ac075bf36d02bfe14e90712580fb7a207af964da6d8146fb3"
+    },
+    {
+      "module": "ai_os.filesystem.vfs_manager",
+      "last_updated": "2025-11-04T23:04:07.012832",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "7a66d37d8d50a67852171bdc7f5301d1bc5e3189f32605587808d944361655be"
+    },
+    {
+      "module": "ai_os.filesystem.vfs_master",
+      "last_updated": "2025-11-07T18:43:19.108668",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "a9d2ea0d11e5305916faa0e085f2a533e40b713d84e7db665f936ef85306f42d"
+    },
+    {
+      "module": "ai_os.filesystem.__init__",
+      "last_updated": "2025-11-04T23:02:20.420234",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "6eae62bda812ca4781aa879ac7ff781d4b5f5bb88d59da4fe52ab8c4d5694274"
+    },
+    {
+      "module": "ai_os.processes.process",
+      "last_updated": "2025-11-04T23:21:02.702183",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "6c67af36d34e213e5445a33b694fc6ac6f1a7d71d87bd4e1ea15158d2068838a"
+    },
+    {
+      "module": "ai_os.processes.process_manager",
+      "last_updated": "2025-11-04T23:21:57.910677",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "12b7ac466f22199772c4339307f6b25d52753b0b10c4c4bf6cea2b8aed23a903"
+    },
+    {
+      "module": "ai_os.processes.process_master",
+      "last_updated": "2025-11-04T23:22:22.438901",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "86f4a6637610bdec4645f7e0a2422766717036fbe1feb22bbe17c4f071d66373"
+    },
+    {
+      "module": "ai_os.processes.scheduler",
+      "last_updated": "2025-11-04T23:21:29.786846",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "eaf14f44a9c0e98c01b4f4a44b9736f94612040e03bd3a626c0ae6d76ef48851"
+    },
+    {
+      "module": "ai_os.processes.__init__",
+      "last_updated": "2025-11-04T23:20:42.293103",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "d2d7e3bbd93557535dd5b80c6d716ed28c271fa94e7725ada6c16f4bfb33f205"
+    },
+    {
+      "module": "ai_os.network_layer.network_interface",
+      "last_updated": "2025-11-06T21:59:39.156116",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "147f883a03f32cef9d0c2ed358728491d293f0d28aff6b86ae74520e02d42f06"
+    },
+    {
+      "module": "ai_os.network_layer.network_master",
+      "last_updated": "2025-11-06T22:01:20.995138",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "57688a2e2468f3e127b78c7d70a90dee2663e8580eb9c1a2c4cab20d647752bd"
+    },
+    {
+      "module": "ai_os.network_layer.network_monitor",
+      "last_updated": "2025-11-06T22:00:52.877294",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "e0e2e1be417a90fa1841e39dac38c934647e9a062a76029a4f81afa93f618b2a"
+    },
+    {
+      "module": "ai_os.network_layer.network_tools",
+      "last_updated": "2025-11-06T22:00:17.707852",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "0f102fa681a5f3a50cc3c2c6e18a55eed94e639f8964ce6ab996ec708766108d"
+    },
+    {
+      "module": "ai_os.network_layer.__init__",
+      "last_updated": "2025-11-06T21:59:13.528052",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "adbd37dca97d26f99d885af7daf817afc9d944e6282c7319ef08c54b734a2181"
+    },
+    {
+      "module": "ai_os.cli_shell.command_aliases",
+      "last_updated": "2025-11-05T19:01:25.412103",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "8b09b6705a53334d4a9a3d7714cc4a7c1b552719e10b9b9dc3b9d2d7d7d60b39"
+    },
+    {
+      "module": "ai_os.cli_shell.command_help",
+      "last_updated": "2025-11-05T19:02:11.261659",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "6f528a6c6c1b32c6d72be9f3019ac74c37965a33379ef8bef269af062c807c90"
+    },
+    {
+      "module": "ai_os.cli_shell.command_history",
+      "last_updated": "2025-11-05T19:01:06.395458",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "625db8c48efedc294b5339d7ddb8dcce14c293947d06fd6156d237a82bebb79a"
+    },
+    {
+      "module": "ai_os.cli_shell.command_parser",
+      "last_updated": "2025-11-05T19:03:53.366505",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "f032ef09e9eea47ae92227696a6af41ae1966fb01f4ab6247c7fecf41fa98203"
+    },
+    {
+      "module": "ai_os.cli_shell.command_registry",
+      "last_updated": "2025-11-05T19:05:12.792641",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "c6283676dd1e3d717cbdd996c2a0ad87d50304e3ad318e2aa0f919e0861e47c9"
+    },
+    {
+      "module": "ai_os.cli_shell.error_handler",
+      "last_updated": "2025-11-05T19:02:35.202070",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "291dcd53a92a24a7094e1c37ba4f2996597261b9a7a83e3635c7b03cdbbf8269"
+    },
+    {
+      "module": "ai_os.cli_shell.logger",
+      "last_updated": "2025-11-05T19:02:43.831887",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "80ea1998cf4b12c663622dbb38ef42a5cbcb9e811041f7da130291dccdeef4f8"
+    },
+    {
+      "module": "ai_os.cli_shell.os_session_manager",
+      "last_updated": "2025-11-05T19:03:14.643257",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "af898b44b3143cf83f0f7b741e06093d320e1d541f17401e2b29a11398afbd56"
+    },
+    {
+      "module": "ai_os.cli_shell.shell",
+      "last_updated": "2025-11-05T19:06:03.373037",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "d94018f35d6f094921079821c4d899f0f1a38e99fe970a789aede9aa9dee39f5"
+    },
+    {
+      "module": "ai_os.cli_shell.__init__",
+      "last_updated": "2025-11-05T19:00:48.535774",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "cd05be5615dcf1add9c3befd124b68bf72eba1194fd3ae9fbef70b5209410b16"
+    },
+    {
+      "module": "ai_os.security_layer.access_control",
+      "last_updated": "2025-11-06T22:02:45.205306",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "019b3f59f1c02565f8a6d850825684bbac5378615e4a874787ee6554852861e6"
+    },
+    {
+      "module": "ai_os.security_layer.auth_manager",
+      "last_updated": "2025-11-06T22:03:25.542912",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "37e8cad18325fe612b62f7df59dcac47ef9c7a05628e39e4a0538f2d569076d8"
+    },
+    {
+      "module": "ai_os.security_layer.encryption",
+      "last_updated": "2025-11-06T22:01:59.256272",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "7b38b4454b4bb5ec82a3880bcf25d8565bd7e49cb94bee6b7557a444ea98c2ff"
+    },
+    {
+      "module": "ai_os.security_layer.hashing",
+      "last_updated": "2025-11-06T22:02:20.553928",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "64a885b3b07d5cffd72d5a86f3842b6e358143be6e51f90b06c6c758373fb2bd"
+    },
+    {
+      "module": "ai_os.security_layer.security_master",
+      "last_updated": "2025-11-06T22:04:12.593401",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "3ee5d4deae70e31fabd488b7c9bed447aad4ea84b4e7a541e60c2586c51b4d93"
+    },
+    {
+      "module": "ai_os.security_layer.__init__",
+      "last_updated": "2025-11-06T22:01:44.040902",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "88aceec2ec59f402a42d8a474cda1138da4e37001f582f2dd756fa3c9052b20d"
+    },
+    {
+      "module": "ai_os.devices.base_device",
+      "last_updated": "2025-11-04T22:26:20.738775",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "7f35d29a9d759d5ae39e54a89a24119b49f6a91cf1bac68818181cb4d0d35f44"
+    },
+    {
+      "module": "ai_os.devices.console_device",
+      "last_updated": "2025-11-04T22:26:28.168647",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "ce911f735f93ad948b24b7e0a2253d8c456233ec54728ce759ea17a572dafc50"
+    },
+    {
+      "module": "ai_os.devices.device_manager",
+      "last_updated": "2025-11-04T22:27:30.639973",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "9cf4a385c9201b06e1563b58db7836e1342c9f29c2d790f2bc1b14caba6bf804"
+    },
+    {
+      "module": "ai_os.devices.device_master",
+      "last_updated": "2025-11-04T22:27:51.152283",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "f701d9ed41a1b81236accac87bafa76198095fcca64a1eb894015abc78b43ecc"
+    },
+    {
+      "module": "ai_os.devices.storage_device",
+      "last_updated": "2025-11-04T22:26:45.228481",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "5029677adfbbdb72fe08c1088c1c6d7fb92da4957d0a6bef5b7a918075e0caac"
+    },
+    {
+      "module": "ai_os.devices.system_device_monitor",
+      "last_updated": "2025-11-04T22:27:10.448724",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "eb107166f7e4432f2bf2697a230e8c75d163b041d65dc09c22169b05a1d8951c"
+    },
+    {
+      "module": "ai_os.devices.__init__",
+      "last_updated": "2025-11-04T22:26:10.816929",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "90324acdca598b3cd70d793762c4fc253ab6db79ca8ef1754dc7ce5ba8b653cb"
+    },
+    {
+      "module": "ai_os.system_simulation_layer.dependency_resolver",
+      "last_updated": "2025-11-05T19:22:39.229375",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "174c2df2982051a278e2226f16d8df0d853428a5823852eb02749d7dcd5b8039"
+    },
+    {
+      "module": "ai_os.system_simulation_layer.git_interface",
+      "last_updated": "2025-11-05T19:25:06.379633",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "f7ef71c3fe59bdc5df67fddd60ffd3d27f9b975b27003cd5066645c8c21845b4"
+    },
+    {
+      "module": "ai_os.system_simulation_layer.mount_manager",
+      "last_updated": "2025-11-05T19:25:52.326057",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "65dd15d1fa4630085b402663249a9d7cd272c2b906d17f22c899222af6970bb3"
+    },
+    {
+      "module": "ai_os.system_simulation_layer.package_manager",
+      "last_updated": "2025-11-05T19:24:21.205527",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "4886adb888a604782d4436e20ef91fde2acefc9ab170b06fd6df4e3d034142e8"
+    },
+    {
+      "module": "ai_os.system_simulation_layer.system_environment",
+      "last_updated": "2025-11-05T19:22:24.820001",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "e58afcae162c39baeb6c91c5f0b776a8ca05f1d9ade86e23fe63a3e086b9324d"
+    },
+    {
+      "module": "ai_os.system_simulation_layer.system_logger",
+      "last_updated": "2025-11-05T19:21:51.480083",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "01b82a02aaf1960d90331f2b9082f6bcc16ea5c0659f22deec6595e923f94a5a"
+    },
+    {
+      "module": "ai_os.system_simulation_layer.update_manager",
+      "last_updated": "2025-11-05T19:26:11.007079",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "8b44189acef0067a3c99a353641885e285665e20856d36d55ebb4bfe866bff0d"
+    },
+    {
+      "module": "ai_os.system_simulation_layer.__init__",
+      "last_updated": "2025-11-05T19:21:31.747764",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "95f72070d5a54af5412f99d13d322c490f54ae8dac1d86270f1a0009c79e9306"
+    },
+    {
+      "module": "ai_os.memory_layer.memory_manager",
+      "last_updated": "2025-11-06T21:58:16.802100",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "c55d8af9bd74e07bd1b392007c4753c9df4cdc2859668fd3a6a7780cd8fe534c"
+    },
+    {
+      "module": "ai_os.memory_layer.memory_master",
+      "last_updated": "2025-11-06T21:59:02.645324",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "b805e0d1e61f2fdd35966597d42b5ff0ff49e9ebe7d1567676c35dbbb1ac322c"
+    },
+    {
+      "module": "ai_os.memory_layer.memory_monitor",
+      "last_updated": "2025-11-06T21:58:29.297306",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "8643bbc25cbf93e72723e516c9615bb372a28d66d11fea5833fc0f03110486ce"
+    },
+    {
+      "module": "ai_os.memory_layer.virtual_memory",
+      "last_updated": "2025-11-06T21:57:52.901703",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "819fe81710141a2179cbe84761e54b024b496bdd6af7d25cdeb097676e825a40"
+    },
+    {
+      "module": "ai_os.memory_layer.__init__",
+      "last_updated": "2025-11-06T21:57:13.802473",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "703eab9678f3153c49d98dd61f51782bfadb63abb682a5c794f9edd04e14b2ab"
+    },
+    {
+      "module": "ai_os.diagnostics.dependency_checker",
+      "last_updated": "2025-11-06T22:05:24.497216",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "799748b4daa79ac93fde53afb5b7ce98b9268852b7d1d1b1917b997858eab79b"
+    },
+    {
+      "module": "ai_os.diagnostics.diagnostics_master",
+      "last_updated": "2025-11-06T22:05:50.174799",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "13b9acea99ebbf1dd68bc4d08c85206e87c864926af2cf97ae4f75f7c13c2d85"
+    },
+    {
+      "module": "ai_os.diagnostics.resource_monitor",
+      "last_updated": "2025-11-06T22:05:40.414897",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "a40a0ce03bde8e13c75c228fe6bfe288e7d8f460b66e5c46ffe017941e9e6078"
+    },
+    {
+      "module": "ai_os.diagnostics.system_check",
+      "last_updated": "2025-11-06T22:05:03.584375",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "018f812b0f33dddd4b665fa17e0ddf718e5d7250d00e7c13c4c873f3decedec6"
+    },
+    {
+      "module": "ai_os.diagnostics.__init__",
+      "last_updated": "2025-11-06T22:04:24.267224",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "e0b648f71b227c1bc00a0e42403ca7c8f6adf128b156ff314092fd83bd6ec4fe"
+    },
+    {
+      "module": "ai_os.users.session_manager",
+      "last_updated": "2025-11-04T23:23:49.672540",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "ce69ae07131531246fccbf4794e541a6508e8c26919cf270f4e9e6784f617444"
+    },
+    {
+      "module": "ai_os.users.user",
+      "last_updated": "2025-11-04T23:22:49.819181",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "35633a723a290c7f84ed5d0dd1609a4adc870e2d3e81f0fd3e5d0e0a0ade47f6"
+    },
+    {
+      "module": "ai_os.users.user_manager",
+      "last_updated": "2025-11-04T23:23:22.184540",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "c7e3eddafb6f846b7ae0f5f2ddaf4b64d4952fe6ab81e5996532885da5723a7a"
+    },
+    {
+      "module": "ai_os.users.user_master",
+      "last_updated": "2025-11-04T23:24:27.140593",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "24933baf3b38712efcd1011a9cbf8c027ec2774f224636faebac491fb355c263"
+    },
+    {
+      "module": "ai_os.users.__init__",
+      "last_updated": "2025-11-04T23:22:30.823263",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "31dfb8b8a92cd9ebcc2b6eee3123bedbbb89dd97e2f62321edd8e238d55bbd9b"
+    },
+    {
+      "module": "ai_os.system.config_manager",
+      "last_updated": "2025-11-05T12:06:51.107620",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "90acb0efcd1ee94c11df17c99b89caa76e31676e4fcb12990da7dfec0fdb7b45"
+    },
+    {
+      "module": "ai_os.system.env_manager",
+      "last_updated": "2025-11-05T12:07:15.415835",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "1076e0f8c0ecb75fdde253efc590ba344e56e58a932b0d87c80dba09322ae21b"
+    },
+    {
+      "module": "ai_os.system.logger",
+      "last_updated": "2025-11-05T12:07:44.368498",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "a30b4792297ab7eff68dda9583891d961c4a3b3e64cbcca337132d7bca4a7414"
+    },
+    {
+      "module": "ai_os.system.system_master",
+      "last_updated": "2025-11-05T12:08:19.092200",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "89de3efc1ab90a95d56f18341fbbf475706f6b89e114380285e5e90a84b11484"
+    },
+    {
+      "module": "ai_os.system.__init__",
+      "last_updated": "2025-11-05T12:06:20.011966",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "97c03c932a9532eebe774e15744feda2752b9702a3a3aec44cae988417c91070"
+    },
+    {
+      "module": "ai_os.filesystem.nano_editor",
+      "last_updated": "2025-11-07T17:56:43.085351",
+      "status": "active",
+      "version": "v1.0.0",
+      "checksum": "4d9cb30fd54c012b655cf18bd3c0f59b014dd304360f7c1941b7dde29cef65ce"
+    }
+  ]
+}

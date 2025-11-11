@@ -1,0 +1,14 @@
+{
+  "demo.txt": {
+    "size": 17,
+    "path": "./virtual_storage\\demo.txt",
+    "created": 1762276341.6602044,
+    "modified": 1762276358.0244253
+  },
+  "config.txt": {
+    "size": 23,
+    "path": "./virtual_storage\\config.txt",
+    "created": 1762276341.664434,
+    "modified": 1762276358.0244253
+  }
+}

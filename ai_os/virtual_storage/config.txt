@@ -1,0 +1,2 @@
+system=active
+mode=demo

@@ -1,0 +1,53 @@
+{
+  "root": {
+    "password_hash": "4813494d137e1631bba301d5acab6e7bb7aa74ce1185d456565ef51d737677b2",
+    "role": "root",
+    "home_directory": "/root",
+    "created_at": 1762492149.9516222,
+    "last_login": null,
+    "login_count": 0,
+    "permissions": [
+      "*"
+    ],
+    "is_active": true,
+    "is_locked": false,
+    "full_name": null,
+    "email": null
+  },
+  "admin": {
+    "password_hash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+    "role": "admin",
+    "home_directory": "/home/admin",
+    "created_at": 1762492149.9516222,
+    "last_login": null,
+    "login_count": 0,
+    "permissions": [
+      "user.create",
+      "user.delete",
+      "user.modify",
+      "process.kill_any",
+      "file.read_any",
+      "file.write_any",
+      "system.config"
+    ],
+    "is_active": true,
+    "is_locked": false,
+    "full_name": null,
+    "email": null
+  },
+  "guest": {
+    "password_hash": "84983c60f7daadc1cb8698621f802c0d9f9a3c3c295c810748fb048115c186ec",
+    "role": "guest",
+    "home_directory": "/home/guest",
+    "created_at": 1762492149.9516222,
+    "last_login": null,
+    "login_count": 0,
+    "permissions": [
+      "file.read_public"
+    ],
+    "is_active": true,
+    "is_locked": false,
+    "full_name": null,
+    "email": null
+  }
+}

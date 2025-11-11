@@ -1,0 +1,182 @@
+{
+  "repositories": [
+    {
+      "name": "aios-main",
+      "url": "https://repo.aios.org/main",
+      "enabled": true
+    },
+    {
+      "name": "aios-contrib",
+      "url": "https://repo.aios.org/contrib",
+      "enabled": true
+    }
+  ],
+  "packages": {
+    "textutils": {
+      "name": "textutils",
+      "version": "1.2.0",
+      "description": "Text manipulation utilities",
+      "size": "2.5 MB",
+      "dependencies": [],
+      "conflicts": [],
+      "commands": ["reverse", "uppercase", "lowercase", "wordcount"],
+      "repository": "aios-main",
+      "category": "utilities"
+    },
+    "gittools": {
+      "name": "gittools",
+      "version": "2.0.1",
+      "description": "Git-like version control tools",
+      "size": "5.1 MB",
+      "dependencies": [],
+      "conflicts": [],
+      "commands": ["git"],
+      "repository": "aios-main",
+      "category": "development"
+    },
+    "netutils": {
+      "name": "netutils",
+      "version": "1.5.3",
+      "description": "Network utilities and tools",
+      "size": "3.8 MB",
+      "dependencies": [],
+      "conflicts": [],
+      "commands": ["curl", "wget", "netcat"],
+      "repository": "aios-main",
+      "category": "network"
+    },
+    "devtools": {
+      "name": "devtools",
+      "version": "3.1.0",
+      "description": "Development tools and compilers",
+      "size": "15.2 MB",
+      "dependencies": ["textutils>=1.0.0"],
+      "conflicts": [],
+      "commands": ["gcc", "make", "gdb"],
+      "repository": "aios-main",
+      "category": "development"
+    },
+    "sysmonitor": {
+      "name": "sysmonitor",
+      "version": "2.3.1",
+      "description": "System monitoring and diagnostics",
+      "size": "4.5 MB",
+      "dependencies": [],
+      "conflicts": [],
+      "commands": ["htop", "iotop", "vmstat"],
+      "repository": "aios-main",
+      "category": "system"
+    },
+    "filemanager": {
+      "name": "filemanager",
+      "version": "1.8.0",
+      "description": "Advanced file management tools",
+      "size": "3.2 MB",
+      "dependencies": ["textutils>=1.0.0"],
+      "conflicts": [],
+      "commands": ["ranger", "mc"],
+      "repository": "aios-contrib",
+      "category": "utilities"
+    },
+    "cryptotools": {
+      "name": "cryptotools",
+      "version": "2.1.0",
+      "description": "Cryptography and security tools",
+      "size": "6.7 MB",
+      "dependencies": [],
+      "conflicts": [],
+      "commands": ["openssl", "gpg"],
+      "repository": "aios-main",
+      "category": "security"
+    },
+    "mediatools": {
+      "name": "mediatools",
+      "version": "1.4.2",
+      "description": "Media processing utilities",
+      "size": "12.3 MB",
+      "dependencies": [],
+      "conflicts": [],
+      "commands": ["ffmpeg", "imagemagick"],
+      "repository": "aios-contrib",
+      "category": "media"
+    },
+    "database": {
+      "name": "database",
+      "version": "4.0.0",
+      "description": "Database management system",
+      "size": "25.6 MB",
+      "dependencies": ["devtools>=3.0.0"],
+      "conflicts": [],
+      "commands": ["mysql", "psql", "sqlite3"],
+      "repository": "aios-main",
+      "category": "database"
+    },
+    "webserver": {
+      "name": "webserver",
+      "version": "2.4.5",
+      "description": "Web server and HTTP tools",
+      "size": "8.9 MB",
+      "dependencies": ["netutils>=1.5.0"],
+      "conflicts": [],
+      "commands": ["nginx", "apache2"],
+      "repository": "aios-main",
+      "category": "network"
+    },
+    "python-dev": {
+      "name": "python-dev",
+      "version": "3.11.0",
+      "description": "Python development environment",
+      "size": "45.2 MB",
+      "dependencies": ["devtools>=3.0.0"],
+      "conflicts": [],
+      "commands": ["python3", "pip3", "virtualenv"],
+      "repository": "aios-main",
+      "category": "development"
+    },
+    "nodejs": {
+      "name": "nodejs",
+      "version": "18.16.0",
+      "description": "Node.js runtime environment",
+      "size": "35.8 MB",
+      "dependencies": [],
+      "conflicts": [],
+      "commands": ["node", "npm", "npx"],
+      "repository": "aios-main",
+      "category": "development"
+    },
+    "docker": {
+      "name": "docker",
+      "version": "24.0.2",
+      "description": "Container platform",
+      "size": "65.4 MB",
+      "dependencies": ["devtools>=3.0.0"],
+      "conflicts": [],
+      "commands": ["docker", "docker-compose"],
+      "repository": "aios-contrib",
+      "category": "virtualization"
+    },
+    "aitools": {
+      "name": "aitools",
+      "version": "1.0.0",
+      "description": "AI and machine learning tools",
+      "size": "120.5 MB",
+      "dependencies": ["python-dev>=3.10.0"],
+      "conflicts": [],
+      "commands": ["tensorflow", "pytorch", "jupyter"],
+      "repository": "aios-contrib",
+      "category": "ai"
+    },
+    "shellutils": {
+      "name": "shellutils",
+      "version": "2.0.0",
+      "description": "Enhanced shell utilities",
+      "size": "1.8 MB",
+      "dependencies": [],
+      "conflicts": [],
+      "commands": ["zsh", "tmux", "screen"],
+      "repository": "aios-main",
+      "category": "shell"
+    }
+  },
+  "last_update": "2024-11-05T19:21:00Z"
+}

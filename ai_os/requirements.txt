@@ -1,0 +1,22 @@
+# AI OS Requirements
+# Dependencies for full functionality
+
+# System monitoring (optional but recommended for full device detection)
+psutil>=5.9.0
+
+# Encryption for VFS Layer (REQUIRED for Layer 4)
+cryptography>=41.0.0
+
+# Note: Layers 1-3 work without any dependencies.
+# psutil is only needed for:
+# - Battery status monitoring
+# - Network interface detection
+# - CPU and memory usage statistics
+# - Disk usage information
+#
+# cryptography is REQUIRED for Layer 4 (VFS):
+# - AES-256 file encryption
+# - Secure key derivation (PBKDF2)
+#
+# Without psutil, the system will still work but with limited
+# system device detection capabilities.
