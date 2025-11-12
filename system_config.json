@@ -1,0 +1,30 @@
+{
+  "system": {
+    "name": "AI OS",
+    "version": "1.0.0",
+    "prompt_style": "[{user}@AIOS:{path}]$ ",
+    "default_editor": "nano",
+    "theme": "default",
+    "log_level": "INFO"
+  },
+  "filesystem": {
+    "default_disk": "MainDisk",
+    "mount_points": {},
+    "max_file_size": 104857600
+  },
+  "shell": {
+    "history_size": 1000,
+    "aliases": {},
+    "macros": {}
+  },
+  "users": {
+    "session_timeout": 3600,
+    "password_min_length": 4,
+    "default_home": "/home/{username}"
+  },
+  "processes": {
+    "scheduler_algorithm": "fifo",
+    "max_concurrent": 10,
+    "time_quantum": 0.1
+  }
+}

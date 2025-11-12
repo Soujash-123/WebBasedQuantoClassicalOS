@@ -1,0 +1,17 @@
+# Backend Layer Dependencies
+# FastAPI and Web Server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# Hot Reload / File Watching
+watchdog==3.0.0
+
+# HTTP Client for testing
+requests==2.31.0
+
+# CORS Support (included in FastAPI but explicit)
+python-multipart==0.0.6
+
+# Optional: Enhanced logging
+python-json-logger==2.0.7

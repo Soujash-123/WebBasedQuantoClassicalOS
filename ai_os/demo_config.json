@@ -1,0 +1,10 @@
+{
+    "system": {
+        "name": "AI OS Demo",
+        "version": "2.0.0"
+    },
+    "features": {
+        "devices": true,
+        "io": true
+    }
+}

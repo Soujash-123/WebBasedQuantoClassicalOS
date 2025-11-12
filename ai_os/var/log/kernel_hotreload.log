@@ -1,0 +1,124 @@
+[2025-11-06T23:18:29.233505] [INFO] Scanning modules...
+[2025-11-06T23:18:29.263022] [INFO] Scanned 72 modules
+[2025-11-06T23:18:29.264051] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-06T23:18:38.583594] [INFO] ============================================================
+[2025-11-06T23:18:38.585121] [INFO] Starting module refresh...
+[2025-11-06T23:18:38.610754] [INFO] Detected 0 changed modules
+[2025-11-06T23:18:38.616915] [INFO] Manifest saved successfully
+[2025-11-06T23:18:38.624862] [INFO] Refresh complete: 0 success, 0 failed in 0.04s
+[2025-11-06T23:18:38.625863] [INFO] ============================================================
+[2025-11-07T11:37:32.657444] [INFO] Manifest loaded successfully
+[2025-11-07T11:37:32.657444] [INFO] Scanning modules...
+[2025-11-07T11:37:32.691564] [INFO] Scanned 72 modules
+[2025-11-07T11:37:32.691564] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-07T17:46:46.944016] [INFO] Manifest loaded successfully
+[2025-11-07T17:46:46.945187] [INFO] Scanning modules...
+[2025-11-07T17:46:46.992081] [INFO] Scanned 72 modules
+[2025-11-07T17:46:46.994792] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-07T17:46:55.905825] [INFO] Manifest loaded successfully
+[2025-11-07T17:46:55.906365] [INFO] Scanning modules...
+[2025-11-07T17:46:55.932762] [INFO] Scanned 72 modules
+[2025-11-07T17:46:55.934653] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-07T17:53:28.323464] [INFO] ============================================================
+[2025-11-07T17:53:28.323464] [INFO] Starting module refresh...
+[2025-11-07T17:53:28.332299] [INFO] Detected change in ai_os.core.core_master
+[2025-11-07T17:53:28.335691] [INFO] Detected change in ai_os.filesystem.vfs_master
+[2025-11-07T17:53:28.345513] [INFO] Detected 2 changed modules
+[2025-11-07T17:53:28.345513] [INFO] Backed up module: ai_os.core.core_master
+[2025-11-07T17:53:28.348979] [INFO] Reloaded existing module: ai_os.core.core_master
+[2025-11-07T17:53:28.348979] [INFO] Backed up module: ai_os.filesystem.vfs_master
+[2025-11-07T17:53:28.354845] [INFO] Reloaded existing module: ai_os.filesystem.vfs_master
+[2025-11-07T17:53:28.357877] [INFO] Manifest saved successfully
+[2025-11-07T17:53:28.358891] [INFO] Refresh complete: 2 success, 0 failed in 0.03s
+[2025-11-07T17:53:28.358891] [INFO] ============================================================
+[2025-11-07T17:53:44.701828] [INFO] Manifest loaded successfully
+[2025-11-07T17:53:44.705954] [INFO] Scanning modules...
+[2025-11-07T17:53:44.731807] [INFO] Scanned 72 modules
+[2025-11-07T17:53:44.731807] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-07T18:09:30.452378] [INFO] ============================================================
+[2025-11-07T18:09:30.453040] [INFO] Starting module refresh...
+[2025-11-07T18:09:30.457566] [INFO] Detected change in ai_os.filesystem.vfs_master
+[2025-11-07T18:09:30.470405] [INFO] Detected 1 changed modules
+[2025-11-07T18:09:30.471992] [INFO] Backed up module: ai_os.filesystem.vfs_master
+[2025-11-07T18:09:30.480829] [INFO] Reloaded existing module: ai_os.filesystem.vfs_master
+[2025-11-07T18:09:30.483395] [INFO] Manifest saved successfully
+[2025-11-07T18:09:30.484931] [INFO] Refresh complete: 1 success, 0 failed in 0.03s
+[2025-11-07T18:09:30.485232] [INFO] ============================================================
+[2025-11-07T18:09:36.155874] [INFO] ============================================================
+[2025-11-07T18:09:36.158109] [INFO] Starting module refresh...
+[2025-11-07T18:09:36.173332] [INFO] Detected 0 changed modules
+[2025-11-07T18:09:36.177581] [INFO] Manifest saved successfully
+[2025-11-07T18:09:36.178575] [INFO] Refresh complete: 0 success, 0 failed in 0.02s
+[2025-11-07T18:09:36.178575] [INFO] ============================================================
+[2025-11-07T18:10:02.955441] [INFO] Watch mode activated
+[2025-11-07T18:10:13.074081] [INFO] Watch loop stopped
+[2025-11-07T18:10:13.078914] [INFO] Watch mode deactivated
+[2025-11-07T18:10:20.302213] [INFO] Manifest loaded successfully
+[2025-11-07T18:10:20.302213] [INFO] Scanning modules...
+[2025-11-07T18:10:20.322975] [INFO] Scanned 73 modules
+[2025-11-07T18:10:20.322975] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-07T18:41:34.341644] [INFO] Manifest loaded successfully
+[2025-11-07T18:41:34.342697] [INFO] Scanning modules...
+[2025-11-07T18:41:34.367977] [INFO] Scanned 73 modules
+[2025-11-07T18:41:34.369157] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-07T18:55:05.947688] [INFO] ============================================================
+[2025-11-07T18:55:05.948696] [INFO] Starting module refresh...
+[2025-11-07T18:55:05.954323] [INFO] Detected change in ai_os.filesystem.vfs_master
+[2025-11-07T18:55:05.975407] [INFO] Detected 1 changed modules
+[2025-11-07T18:55:05.976506] [INFO] Backed up module: ai_os.filesystem.vfs_master
+[2025-11-07T18:55:05.992248] [INFO] Reloaded existing module: ai_os.filesystem.vfs_master
+[2025-11-07T18:55:05.999331] [INFO] Manifest saved successfully
+[2025-11-07T18:55:06.000516] [INFO] Refresh complete: 1 success, 0 failed in 0.05s
+[2025-11-07T18:55:06.001524] [INFO] ============================================================
+[2025-11-07T19:43:41.427300] [INFO] Manifest loaded successfully
+[2025-11-07T19:43:41.428295] [INFO] Scanning modules...
+[2025-11-07T19:43:41.456839] [INFO] Scanned 73 modules
+[2025-11-07T19:43:41.457991] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-07T20:28:11.308977] [INFO] Manifest loaded successfully
+[2025-11-07T20:28:11.309932] [INFO] Scanning modules...
+[2025-11-07T20:28:11.340374] [INFO] Scanned 73 modules
+[2025-11-07T20:28:11.341982] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-07T20:33:39.694355] [INFO] Manifest loaded successfully
+[2025-11-07T20:33:39.695931] [INFO] Scanning modules...
+[2025-11-07T20:33:39.732379] [INFO] Scanned 73 modules
+[2025-11-07T20:33:39.733390] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-07T20:57:40.486288] [INFO] Manifest loaded successfully
+[2025-11-07T20:57:40.486890] [INFO] Scanning modules...
+[2025-11-07T20:57:40.520349] [INFO] Scanned 73 modules
+[2025-11-07T20:57:40.520349] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-07T20:58:13.383001] [INFO] Manifest loaded successfully
+[2025-11-07T20:58:13.385112] [INFO] Scanning modules...
+[2025-11-07T20:58:13.413632] [INFO] Scanned 73 modules
+[2025-11-07T20:58:13.415330] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-07T21:53:34.218065] [INFO] Manifest loaded successfully
+[2025-11-07T21:53:34.219764] [INFO] Scanning modules...
+[2025-11-07T21:53:34.257587] [INFO] Scanned 73 modules
+[2025-11-07T21:53:34.257587] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-07T21:53:45.744521] [INFO] Manifest loaded successfully
+[2025-11-07T21:53:45.745071] [INFO] Scanning modules...
+[2025-11-07T21:53:45.782071] [INFO] Scanned 73 modules
+[2025-11-07T21:53:45.783072] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-07T21:53:53.803315] [INFO] Manifest loaded successfully
+[2025-11-07T21:53:53.804313] [INFO] Scanning modules...
+[2025-11-07T21:53:53.844781] [INFO] Scanned 73 modules
+[2025-11-07T21:53:53.847828] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-09T22:14:33.163675] [INFO] Manifest loaded successfully
+[2025-11-09T22:14:33.164681] [INFO] Scanning modules...
+[2025-11-09T22:14:33.190986] [INFO] Scanned 73 modules
+[2025-11-09T22:14:33.191991] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-10T21:29:59.590501] [INFO] Manifest loaded successfully
+[2025-11-10T21:29:59.591518] [INFO] Scanning modules...
+[2025-11-10T21:29:59.641642] [INFO] Scanned 75 modules
+[2025-11-10T21:29:59.643169] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-11T00:38:16.449356] [INFO] Manifest loaded successfully
+[2025-11-11T00:38:16.449356] [INFO] Scanning modules...
+[2025-11-11T00:38:16.493341] [INFO] Scanned 73 modules
+[2025-11-11T00:38:16.494859] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-11T00:41:57.188414] [INFO] Manifest loaded successfully
+[2025-11-11T00:41:57.188414] [INFO] Scanning modules...
+[2025-11-11T00:41:57.230027] [INFO] Scanned 73 modules
+[2025-11-11T00:41:57.232317] [INFO] Kernel Hot Reload Manager initialized
+[2025-11-11T09:52:51.291940] [INFO] Manifest loaded successfully
+[2025-11-11T09:52:51.294823] [INFO] Scanning modules...
+[2025-11-11T09:52:51.409388] [INFO] Scanned 73 modules
+[2025-11-11T09:52:51.411139] [INFO] Kernel Hot Reload Manager initialized

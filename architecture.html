@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Architecture Diagram</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #0a0a0a;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow-x: auto;
+        }
+        
+        .container {
+            min-width: 1400px;
+            background: #1a1a1a;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+        }
+        
+        h1 {
+            color: #4a90e2;
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        #diagram {
+            background: #1a1a1a;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        
+        /* Override Mermaid default styles for better visibility */
+        .mermaid {
+            font-size: 18px !important;
+        }
+        
+        .mermaid .node rect,
+        .mermaid .node circle,
+        .mermaid .node ellipse,
+        .mermaid .node polygon {
+            stroke-width: 3px !important;
+        }
+        
+        .mermaid .node text {
+            font-size: 18px !important;
+            font-weight: 600 !important;
+            fill: #ffffff !important;
+        }
+        
+        .mermaid .edgeLabel {
+            font-size: 16px !important;
+            background: #2a2a2a !important;
+            color: #4a90e2 !important;
+            padding: 4px 8px !important;
+            border-radius: 4px !important;
+        }
+        
+        .mermaid .cluster rect {
+            stroke-width: 2px !important;
+        }
+        
+        .mermaid .cluster text {
+            font-size: 20px !important;
+            font-weight: 700 !important;
+            fill: #4a90e2 !important;
+        }
+        
+        .controls {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        button {
+            background: #4a90e2;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            margin: 0 10px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+        
+        button:hover {
+            background: #357abd;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(74, 144, 226, 0.4);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>System Architecture Diagram</h1>
+        <div id="diagram">
+            <div class="mermaid">
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1a1a1a', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#4a90e2', 'lineColor': '#4a90e2', 'secondaryColor': '#2a2a2a', 'tertiaryColor': '#1a1a1a', 'fontSize': '18px'}}}%%
+
+graph TD
+    %% User
+    User((End User)) -->|Interacts with| Browser
+
+    %% Presentation Tier
+    subgraph "Presentation Tier (Frontend)"
+        Browser[Web Browser] -->|Renders| ReactApp[React Application]
+        
+        subgraph "React Application"
+            FE[Frontend Components]
+            State[State Management]
+            API_Client[API Client]
+            WS_Client[WebSocket Client]
+        end
+    end
+
+    %% Application Tier
+    subgraph "Application Tier (Backend)"
+        API_Gateway[API Gateway] -->|Routes to| Services
+        
+        subgraph "API Layer"
+            Auth[Authentication]
+            RateLimiter[Rate Limiter]
+            Request_Validator[Request Validator]
+        end
+        
+        subgraph "Business Logic"
+            ShellService[Shell Service]
+            FileService[File Service]
+            ProcessService[Process Service]
+            SystemService[System Service]
+        end
+        
+        subgraph "Core Services"
+            OS_Connector[OS Connector]
+            VFS_Manager[VFS Manager]
+            ProcessManager[Process Manager]
+            DeviceManager[Device Manager]
+        end
+    end
+
+    %% Data Tier
+    subgraph "Data Tier"
+        subgraph "Storage"
+            VFS_Storage[VFS Storage]
+            MetadataDB[(Metadata DB)]
+            Cache[(Cache)]
+        end
+    end
+
+    %% Connections
+    %% Frontend to Backend
+    ReactApp -->|REST API| API_Gateway
+    ReactApp -->|WebSocket| WS_Server[WebSocket Server]
+    WS_Server -->|Real-time Updates| ReactApp
+    
+    %% Within Backend
+    API_Gateway --> Auth
+    Auth --> RateLimiter
+    RateLimiter --> Request_Validator
+    Request_Validator --> Business_Logic
+    
+    subgraph Business_Logic[ ]
+        ShellService
+        FileService
+        ProcessService
+        SystemService
+    end
+    
+    Business_Logic --> Core_Services
+    
+    subgraph Core_Services[ ]
+        OS_Connector
+        VFS_Manager
+        ProcessManager
+        DeviceManager
+    end
+    
+    %% Backend to Data
+    VFS_Manager --> VFS_Storage
+    VFS_Manager --> MetadataDB
+    SystemService --> Cache
+
+    %% Styling
+    classDef presentation fill:#2c3e50,stroke:#4a90e2,color:white,stroke-width:3px
+    classDef application fill:#1a1a1a,stroke:#4a90e2,color:white,stroke-width:3px
+    classDef data fill:#1a3a4a,stroke:#2d5d7a,color:white,stroke-width:3px
+    classDef user fill:#4a4a4a,stroke:#666,color:white,stroke-dasharray: 5 5,stroke-width:3px
+    classDef api fill:#2a2a2a,stroke:#4a90e2,stroke-dasharray: 3 3,color:#4a90e2,stroke-width:3px
+
+    class Browser,ReactApp,FE,State,API_Client,WS_Client presentation
+    class API_Gateway,Auth,RateLimiter,Request_Validator,ShellService,FileService,ProcessService,SystemService,OS_Connector,VFS_Manager,ProcessManager,DeviceManager,WS_Server application
+    class VFS_Storage,MetadataDB,Cache data
+    class User user
+    class API_Layer,API_Gateway,Auth,RateLimiter,Request_Validator api
+            </div>
+        </div>
+        <div class="controls">
+            <button onclick="zoomIn()">Zoom In</button>
+            <button onclick="zoomOut()">Zoom Out</button>
+            <button onclick="resetZoom()">Reset</button>
+        </div>
+    </div>
+
+    <script>
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'dark',
+            themeVariables: {
+                fontSize: '18px'
+            }
+        });
+
+        let scale = 1;
+        const diagram = document.getElementById('diagram');
+
+        function zoomIn() {
+            scale += 0.1;
+            diagram.style.transform = `scale(${scale})`;
+            diagram.style.transformOrigin = 'top center';
+        }
+
+        function zoomOut() {
+            if (scale > 0.3) {
+                scale -= 0.1;
+                diagram.style.transform = `scale(${scale})`;
+                diagram.style.transformOrigin = 'top center';
+            }
+        }
+
+        function resetZoom() {
+            scale = 1;
+            diagram.style.transform = `scale(${scale})`;
+        }
+    </script>
+</body>
+</html>

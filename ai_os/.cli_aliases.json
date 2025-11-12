@@ -1,0 +1,15 @@
+{
+  "ll": "ls -la",
+  "la": "ls -a",
+  "cls": "clear",
+  "md": "mkdir",
+  "rd": "rmdir",
+  "copy": "cp",
+  "move": "mv",
+  "del": "rm",
+  "dir": "ls",
+  "type": "cat",
+  "mem": "memstat",
+  "proc": "ps",
+  "net": "netstat"
+}

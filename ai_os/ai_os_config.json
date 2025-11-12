@@ -1,0 +1,12 @@
+{
+    "system": {
+        "mode": "development",
+        "version": "1.0.0"
+    },
+    "ai": {
+        "model": "gpt-4"
+    },
+    "runtime": {
+        "max_threads": 4
+    }
+}

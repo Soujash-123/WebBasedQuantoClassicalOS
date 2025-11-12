@@ -1,0 +1,16 @@
+# Web-Based Operating System - Project .gitignore
+
+# ================================
+# PYTHON / BACKEND
+# ================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+myenv/
+node_modules/
+.env*
