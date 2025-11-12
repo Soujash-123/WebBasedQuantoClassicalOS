@@ -1,34 +1,41 @@
-version: "3.8"
+version: '3.8'
+
 services:
   backend:
     build:
       context: .
       dockerfile: backend/Dockerfile
-    container_name: web_ai_os_backend
+    container_name: aios-backend
     ports:
-      - "8000:8000"
+      - "5000:5000"
     volumes:
-      - ./backend:/app:ro
-      - ./ai_os:/app/ai_os:ro
-    environment:
-      - PYTHONUNBUFFERED=1
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
-      interval: 30s
-      timeout: 5s
-      retries: 3
+      - ./backend:/app/backend
+      - ./ai_os:/app/ai_os
+      - ./data:/app/data
+      - ./vfs_storage:/app/vfs_storage
+      - ./virtual_storage:/app/virtual_storage
+    restart: unless-stopped
+    networks:
+      - aios-network
 
   frontend:
     build:
-      context: .
-      dockerfile: frontend/Dockerfile
-    container_name: web_ai_os_frontend
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: aios-frontend
     ports:
-      - "5173:80"
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    env_file:
+      - ./frontend/.env
     depends_on:
       - backend
+    restart: unless-stopped
+    networks:
+      - aios-network
 
-# Optional: network config can be customized
 networks:
-  default:
+  aios-network:
     driver: bridge
